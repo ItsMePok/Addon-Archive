@@ -1,0 +1,8 @@
+{
+	"format_version": "1.15.0",
+	"badger:client_block": {
+        "poke:cobalt_bricks": {
+            "textures": "textures/blocks/poke_cobalt_bricks"
+        }
+    }
+}

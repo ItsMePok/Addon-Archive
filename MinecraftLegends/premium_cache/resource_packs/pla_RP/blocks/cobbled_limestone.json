@@ -1,0 +1,8 @@
+{
+	"format_version": "1.15.0",
+	"badger:client_block": {
+        "poke:cobbled_limestone": {
+            "textures": "textures/blocks/poke_cobbled_limestone"
+        }
+    }
+}

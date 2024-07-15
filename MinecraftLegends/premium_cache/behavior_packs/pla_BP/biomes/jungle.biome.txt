@@ -1,0 +1,179 @@
+{
+   "format_version" : "1.13.0",
+   "minecraft:biome" : {
+      "components" : {
+         "animal" : {},
+         "badger:overworld_height" : {
+            
+            "height_params" : {
+               "average_height" : 22,
+               "texture_heights": [19, 20],
+               "clamp_heights": [19, 20],
+               "clamp_scales": [0.25, 0.5]
+            },
+            "noise_params" : [ 0.220, 0.10 ]
+         },
+         "badger:rivers" : {
+            "cell_range" : [ 0, 2 ],
+            "point_chance" : 0.40,
+            "river_biome" : "jungle_river",
+            "river_border_width" : 12,
+            "river_width" : 4
+         },
+         "badger:sub_biomes" : {
+            "borders" : [
+               {
+                  "allowlist" : [
+                     "brokenlands",
+                     "brokenlands_sanddune",
+                     "brokenlands_tarpits",
+                     "drylands",
+                     "drylands_enable_hoodoos",
+                     "burnt_grass_trees"
+                  ],
+                  "biome" : "burnt_grass_trees",
+                  "width" : 24
+               },
+               {
+                  "allowlist" : [
+                     "frostlands",
+                     "frostlands_hills",
+                     "frostlands_springs",
+                     "frosty_grass_trees"
+                  ],
+                  "biome" : "frosty_grass_trees",
+                  "width" : 24
+               },
+               {
+                  "allowlist" : [ "grasslands", "forest", "forest_hills", "sparse_jungle" ],
+                  "biome" : "sparse_jungle",
+                  "width" : 24
+               },
+               {
+                  "allowlist" : [ "mountain_parent_valleys", "sparse_jungle_hills" ],
+                  "biome" : "sparse_jungle_hills",
+                  "width" : 16
+               }
+            ],
+            "scatter_biomes" : [
+               {
+                  "biome" : "jungle_pool",
+                  "offSetZ" : 1,
+                  "scaleX" : 10,
+                  "scaleY" : 10,
+                  "threshold" : 0.50
+               },
+               {
+                  "biome" : "jungle_field",
+                  "offSetZ" : 1,
+                  "scaleX" : 1,
+                  "scaleY" : 1,
+                  "threshold" : 0.90
+               },
+               {
+                  "biome" : "jungle_hills",
+                  "offSetZ" : 20.0,
+                  "scaleX" : 5.0,
+                  "scaleY" : 5.0,
+                  "threshold" : 0.0
+               },
+               {
+                  "biome" : "jungle_terraces",
+                  "offSetZ" : 5,
+                  "scaleX" : 10,
+                  "scaleY" : 10,
+                  "threshold" : 1
+               }
+            ]
+         },
+         "badger:visual_biome_attributes" : {
+            "grass" : {
+               "normal" : {
+                  "grass_noise_intensity" : 1.0,
+                  "grass_noise_scale" : 1.0,
+                  "grass_surface_color" : "#4B9146"
+               },
+               "overlay" : {
+                  "grass_overlay_noise_bias" : 0.0,
+                  "grass_overlay_noise_intensity" : 0.0,
+                  "grass_overlay_noise_scale" : 0.0,
+                  "grass_overlay_surface_color" : "#000000"
+               }
+            },
+            "map" : {
+               "biome_banner" : "map_screen/banners/legend_banner_biome_junglelands.png",
+               "biome_display_name" : "jungle",
+               "common_resources": ["redstone", "wood"],
+               "common_resource_icon" : "/icons/resources/resource_redstone.png",
+               "map_color" : "#696F59",
+               "map_color_odd" : "#696F59",
+               "map_pattern_index" : 6
+            },
+            "particulates" : {
+               "nether_spores" : 0.0,
+               "sparkles" : 0.0
+            },
+            "rain" : {
+               "downfall" : 50.0,
+               "lower_limit" : 0.0,
+               "rain_to_snow_height" : 999,
+               "rain_to_snow_transition_size" : 5,
+               "snow_to_rain_density_ratio" : 0.75,
+               "upper_limit" : 0.009999999776482582
+            },
+            "water" : {
+               "water_blur_distance" : 7.0,
+               "water_color_blend_distance" : 0.0,
+               "water_depths_color" : "#5AC2E9",
+               "water_surface_color" : "#02CDFF",
+               "water_surface_transparency" : 0.3000000119209290
+            }
+         },
+         "jungle" : {},
+         "minecraft:surface_parameters" : {
+            "foundation_material" : "badger:block_stone",
+            "ordered_surface" : {
+               "stacks" : [
+                  {
+                     "height_range" : [ 0, 999 ],
+                     "layers" : [
+                        {
+                           "blocks_weighted" : [
+                              [ "minecraft:grass" ]
+                           ]
+                        },
+                        {
+                           "blocks_weighted" : [
+                              [ "badger:block_dirt_rock_var01" ]
+                           ]
+                        },
+                        {
+                           "blocks_weighted" : [
+                              [ "badger:block_dirt_rock_var02" ]
+                           ]
+                        },
+                        {
+                           "blocks_weighted" : [
+                              [ "badger:block_dirt_rock_var03" ]
+                           ],
+                           "depth_range" : [ 10, 15 ]
+                        }
+                     ],
+                     "top_down" : true
+                  }
+               ]
+            },
+            "sea_floor_depth" : 7,
+            "sea_floor_material" : "badger:block_gravel",
+            "sea_material" : "badger:block_water"
+         },
+         "monster" : {},
+         "overworld" : {},
+         "rare" : {},
+         "resource_redstone" : {}
+      },
+      "description" : {
+         "identifier" : "jungle"
+      }
+   }
+}

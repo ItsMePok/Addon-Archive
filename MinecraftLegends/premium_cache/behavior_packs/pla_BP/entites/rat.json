@@ -1,0 +1,186 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "poke:rat",
+      "runtime_identifier": "badger:badger_mob",
+      "is_summonable": true
+    },
+    "mushroom_data": {
+      "role": "Animal"
+    },
+    "components": {
+      "badger:aabb": {
+        "width": 1.3,
+        "length": 1.3,
+        "height": 0.8
+      },
+      "badger:loot": {
+        "table": "common_animal"
+      },
+      "badger:movement": {
+        "move_speed": 4.0,
+        "air_control_factor": 0.0
+      },
+      "badger:physics": {
+        "gravity": -30,
+        "friction": 0.1
+      },
+      "badger:world_collision": {
+        "has_collision": true,
+        "auto_step": 3.6,
+        "interpolation_speed": 10
+      },
+      "badger:collision_weight": {
+        "weight": 10
+      },
+      "badger:wander": {
+        "wander_frequency": 0.1,
+        "wander_radius": 5
+      },
+      "badger:tags": {
+        "tags": [
+          "badger",
+          "luredirect",
+          "mount",
+          "animal",
+          "mob",
+          "neutral",
+          "pattable_animal"
+        ]
+      },
+      "badger:health": {
+        "max_health": 15
+      },
+      "badger:targeting": {
+        "targeting_priorities": [
+          //Pat Pat
+          {
+            "name": "pat_pat",
+            "max_range": 15,
+            "include_tags": [
+              "player"
+            ],
+            "exclude_tags": [],
+            "alliance_rule_filter": "friendly",
+            "actions": [
+              "pat_pat"
+            ]
+          },
+          //Piglin Targeting
+          {
+            "name": "badger_attack_long",
+            "max_range": 10,
+            "include_tags": [
+              "piglin"
+            ],
+            "exclude_tags": [
+              "wall",
+              "stairs",
+              "donotattack",
+              "buildable_combat"
+            ],
+            "alliance_rule_filter": "enemy",
+            "actions": [
+              "badger_melee_attack"
+            ]
+          },
+          //Follow Player
+          {
+            "name": "badger_approach_player",
+            "max_range": 2,
+            "include_tags": [
+              "player"
+            ],
+            "exclude_tags": [],
+            "alliance_rule_filter": "friendly",
+            "actions": [
+              "follow_player"
+            ]
+          }
+        ]
+      },
+      "badger:damage_receiver": {
+        "auto_generate_shape": "cylinder",
+        "damage_resistances": {}
+      },
+      "badger:action_tickets": {
+        "action_tickets": {
+          "cc": 2,
+          "sc": 1,
+          "rc": 1
+        }
+      },
+      "badger:target_actions": {
+        "actions": [
+          {
+            "name": "badger_melee_attack",
+            "on_hit_target_trigger": "on_badger_melee_attack_hit",
+            "range": {
+              "max_range": 1.0
+            },
+            "state_machine": {
+              "wind_up": 0.4,
+              "wind_down": 2.0,
+              "cooldown_time": 1.5,
+              "deactivates_on_cooldown": false
+            },
+            "shape_area_damage": {
+              "shape": {
+                "type": "wedge",
+                "aperture_angle": 35,
+                "radius": 1.5,
+                "thickness": 2.5,
+                "position": [
+                  0.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "collision": {
+                "include_tags": [],
+                "exclude_tags": [],
+                "alliance_rule_filter": "enemy"
+              },
+              "damage": {
+                "damage_amount": 4,
+                "damage_types": [
+                  "neutral"
+                ]
+              }
+            }
+          },
+          {
+            "name": "badger_approach",
+            "range": {
+              "min_range": 2.2,
+              "max_range": 5.0
+            }
+          },
+          {
+            "name": "follow_player",
+            "range": {
+              "max_range": 3
+            }
+          }
+        ]
+      },
+      "badger:knockback_resistance": {
+        "affected_scale": 1.0
+      },
+      "badger:mount": {
+        "include_tags": [
+          "rider"
+        ],
+        "alliance_rule_filter": "friendly"
+      },
+      "badger:conditionally_solid_blocks": {
+        "include_tags": [
+          "barrier_waterfall"
+        ],
+        "exclude_tags": []
+      },
+      "badger:template": "badger:template_animal"
+    }
+  }
+}

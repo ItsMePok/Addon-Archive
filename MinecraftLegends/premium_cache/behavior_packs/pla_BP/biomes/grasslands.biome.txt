@@ -1,0 +1,20 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:biome": {
+        "components": {
+            "minecraft:surface_parameters": {
+                "default_surface": {
+                    "mid_material": "poke:cobbled_limestone",
+                    "top_material": "poke:cobalt_bricks" // Replace this with the custom block
+                },
+                "foundation_material": "poke:limestone",
+                "sea_floor_depth": 4,
+                "sea_floor_material": "poke:cobbled_limestone",
+                "sea_material": "badger:block_water"
+            }
+        },
+        "description": {
+            "identifier": "grasslands"
+        }
+    }
+}

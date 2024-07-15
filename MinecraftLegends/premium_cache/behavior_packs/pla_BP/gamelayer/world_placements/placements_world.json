@@ -1,0 +1,82 @@
+{
+    "factions": [
+        {
+            "biome": {
+                "biome": "poke_limestone",
+                "spread_priority": 1,
+                "starting_pixels": 1,
+                "total_pixels": 5
+            },
+            "initial_villages": {
+                "small": {
+                    "count": 1
+                }
+            },
+            "placement_name": "center",
+            "placement_rules": [
+                {
+                    "game_start": {}
+                }
+            ],
+            "placement_type": "special",
+            "spawn_entity": "badger:world_center_locator",
+            "tags": ["poke", "center"],
+            "unique_card_id": "badger_center_poke_center",
+            "village_data": "badger:xp_well_of_fate"
+        },
+        {
+            "biome": {
+                "biome": "grasslands",
+                "spread_priority": 1,
+                "starting_pixels": 1,
+                "total_pixels": 5
+            },
+            "initial_villages": {
+                "small": {
+                    "count": 1
+                }
+            },
+            "placement_name": "center",
+            "placement_rules": [
+                {
+                    "game_start": {}
+                }
+            ],
+            "placement_type": "special",
+            "spawn_entity": "badger:world_center_locator",
+            "tags": ["poke", "set1"],
+            "unique_card_id": "badger_center_poke_set1",
+            "village_data": "badger:xp_well_of_fate"
+        }/*,
+        {
+            "biome": {
+                "biome": "jungle",
+                "spread_priority": 2,
+                "starting_pixels": 1,
+                "total_pixels": 20
+            },
+            "initial_villages": {
+                "small": {
+                    "count": 1
+                }
+            },
+            "placement_name": "jungle_set1",
+            "placement_rules": [
+                {
+                    "distance": {
+                        "chunk_distance_from_parent": [
+                            0,
+                            96
+                        ],
+                        "distance_to_zero_score": 20,
+                        "tag_parent": "center",
+                        "weight": 1
+                    }
+                }
+            ],
+            "placement_type": "biome",
+            "unique_card_id": "badger_set1_poke_jungle",
+            "tags": ["wiki_mod", "set1"]
+        }*/
+    ]
+}

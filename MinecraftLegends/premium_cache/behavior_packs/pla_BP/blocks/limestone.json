@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "poke:limestone",
+			"material": "badger_stone"
+		},
+		"components": {
+			"minecraft:block_shape": {
+                "shape": "cube"
+            },
+			"minecraft:destroy_time": {
+				"value": 10
+			},
+			/*"badger:block_type": {
+				"tags": ["gatherable_stone"]
+			},*/
+			"badger:terrain_type": {
+        		"terrain": "stone" // For possible values, see our page on block terrain types
+    		}
+		}
+	}
+}

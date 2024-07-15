@@ -1,0 +1,8 @@
+{
+    "icon": "dlc_data/icon.png",
+    "icon_alt": "dlc_data/icon_alt.png",
+    "reward_icon": "dlc_data/reward.png",
+    "name": "ItsMePok",
+    "pack_id": "poke",
+    "type": "myth"
+}

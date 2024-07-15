@@ -1,0 +1,16 @@
+{
+    "game_modes": [
+        {
+            "behavior_pack": "f40d89d4-02ad-4df4-ba2f-49c07fcfc7b8",
+            "default_privacy": 0,
+            "loading_tip_set": "campaign",
+            "max_players": 1,
+            "name": "poke",
+            "parent": "myth",
+            "resource_pack": "9fdcfaa2-ed14-40ee-aabe-64dd82a5d7c8",
+            "telemetry_name": "Myth_Mod_Template",
+            "ui_style": "lostLegend"
+        }
+    ],
+    "myths_hub_host_list": [{ "name": "myth_test" }]
+}

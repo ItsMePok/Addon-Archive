@@ -1,0 +1,26 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:biome": {
+        "components": {
+            "animal" : {},
+            "monster" : {},
+            "mountain_parent_valleys" : {},
+            "mountain_valleys" : {},
+            "mountains" : {},
+            "overworld" : {},
+            "minecraft:surface_parameters": {
+                "default_surface": {
+                    "mid_material": "poke:cobbled_limestone",
+                    "top_material": "poke:cobalt_bricks" // Replace this with the custom block
+                },
+                "foundation_material": "poke:limestone",
+                "sea_floor_depth": 4,
+                "sea_floor_material": "badger:block_sand",
+                "sea_material": "badger:block_water"
+            }
+        },
+        "description": {
+            "identifier": "poke_limestone"
+        }
+    }
+}
