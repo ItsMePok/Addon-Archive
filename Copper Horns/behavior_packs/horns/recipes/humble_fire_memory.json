@@ -1,0 +1,38 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:recipe_shaped": {
+    "assume_symmetry": true,
+    "description": {
+      "identifier": "poke:humble_fire_memory"
+    },
+    "group": "copper_horn",
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:goat_horn",
+        "data": 3
+      }
+    ],
+    "pattern": [
+      "CGC",
+      " C "
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "G": {
+        "item": "minecraft:goat_horn",
+        "data": 3
+      }
+    },
+    "result": {
+      "item": "poke:humble_fire_memory"
+    }
+  }
+}

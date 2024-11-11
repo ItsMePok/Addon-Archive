@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "Horns",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "poke_copper_horn": {
+      "textures": "textures/items/poke_copper_horn"
+    }
+  }
+}

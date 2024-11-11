@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Copper Horns §aRP§r",
+    "description": "Adds the Horns that never made it to vanilla, also with some extra features",
+    "uuid": "fcda4631-da18-4191-be10-50e6c9480396",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      40
+    ]
+  },
+  "modules": [
+    {
+      "description": "My Resource Pack",
+      "type": "resources",
+      "uuid": "e342646d-5790-45a2-b2f6-ddb18748b4a2",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "22db3b15-0008-49da-a4fd-c2923d59edb3",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

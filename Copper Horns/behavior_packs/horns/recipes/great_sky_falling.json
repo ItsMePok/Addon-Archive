@@ -1,0 +1,38 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:recipe_shaped": {
+    "assume_symmetry": true,
+    "description": {
+      "identifier": "poke:great_sky_falling"
+    },
+    "group": "copper_horn",
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:goat_horn",
+        "data": 0
+      }
+    ],
+    "pattern": [
+      "CGC",
+      " C "
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "G": {
+        "item": "minecraft:goat_horn",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "poke:great_sky_falling"
+    }
+  }
+}
