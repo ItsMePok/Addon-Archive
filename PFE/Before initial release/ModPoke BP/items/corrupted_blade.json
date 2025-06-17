@@ -1,0 +1,48 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "poke:end_cleaver",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 200,
+				"damage_chance": {
+					"min": 100,
+					"max": 100
+				}
+			},
+			"minecraft:damage": 13,
+			"minecraft:icon": {
+				"texture": "poke_end_cleaver"
+			},
+			"minecraft:enchantable": {
+				"value": 27,
+				"slot": "sword"
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 12
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 12
+					}
+				]
+			},
+			"minecraft:weapon": {},
+			"tag:minecraft:is_sword": {},
+			"minecraft:hover_text_color": "light_purple"
+		}
+	}
+}

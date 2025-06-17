@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke:speed_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"F F",
+			"# #",
+			"# #"
+		],
+		"key": {
+			"#": {
+				"item": "diamond_block"
+			},
+			"F": {
+				"item": "feather"
+			}
+		},
+		"result": {
+			"item": "poke:speed_boots_boots",
+			"count": 1
+		}
+	}
+}

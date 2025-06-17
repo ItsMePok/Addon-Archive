@@ -1,0 +1,14 @@
+pack.name=PokeSmp Addon RP
+pack.description=A addon for the Smp
+item.poke:dollor_bill_1=$1 Bill
+item.poke:dollor_bill_5=$5 Bill
+item.spawn_egg.entity.poke:shopkeeper_1.name=Spawn Shopkeeper [Exchange]
+entity.poke:shopkeeper_1.name=Shopkeeper [Exchange]
+item.poke:med_ring=Medic Ring
+item.poke:ring_1=Ring
+item.poke:ring_2=Ring
+item.poke:ring_3=Ring
+item.poke:ring_4=Ring
+item.poke:arrow_ring=Ring
+item.poke:arrow_gem=Gem
+item.poke:gem_holder=Gem Holder

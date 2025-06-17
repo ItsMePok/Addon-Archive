@@ -1,0 +1,22 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"poke:shopkeeper": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.shopkeeper.idle",
+					"hurt": "mob.shopkeeper.hit",
+					"death": "mob.shopkeeper.death",
+					"death.to.zombie": "mob.shopkeeper.death",
+					"haggle": "mob.shopkeeper.haggle",
+					"haggle.yes": "mob.shopkeeper.yes",
+					"haggle.no": "mob.shopkeeper.no"
+				}
+			}
+		}
+	}
+}

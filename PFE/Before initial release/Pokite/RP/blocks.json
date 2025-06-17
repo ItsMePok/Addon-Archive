@@ -1,0 +1,21 @@
+{
+	"poke:cobble_trapdoor": {
+		"sound": "stone"
+	},
+	"poke:dirt_slab": {
+		"sound": "grass",
+		"textures": {
+			"down": "stone_slab_bottom",
+			"side": "stone_slab_side",
+			"up": "stone_slab_top"
+		}
+	},
+	"poke:double_dirt_slab": {
+		"sound": "grass",
+		"textures": {
+			"down": "stone_slab_bottom",
+			"side": "stone_slab_side",
+			"up": "stone_slab_top"
+		}
+	}
+}

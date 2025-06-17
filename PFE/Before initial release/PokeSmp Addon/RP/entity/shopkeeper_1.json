@@ -1,0 +1,44 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "poke:shopkeeper_1",
+			"materials": {
+				"default": "villager"
+			},
+			"textures": {
+				"default": "textures/entity/shopkeeper_1"
+			},
+			"geometry": {
+				"default": "geometry.shopkeeper_1"
+			},
+			"scripts": {
+				"scale": 1
+			},
+			"animations": {
+				"general": "animation.shopkeeper_1.general",
+				"look_at_target": "animation.common.look_at_target",
+				"raise_arms": "animation.shopkeeper_1.raise_arms",
+				"move": "animation.shopkeeper_1.move"
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.shopkeeper_1.general"
+				},
+				{
+					"raise_arms": "controller.animation.shopkeeper_1_v2.raise_arms"
+				},
+				{
+					"move": "controller.animation.shopkeeper_1.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.shopkeeper_1"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

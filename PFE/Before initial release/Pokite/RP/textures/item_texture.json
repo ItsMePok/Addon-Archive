@@ -1,0 +1,113 @@
+{
+	"resource_pack_name": "Pokite",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"hellite_ingot": {
+			"textures": "textures/items/pokite_ingot"
+		},
+		"poke_hellite_sword": {
+			"textures": "textures/items/pokite_sword"
+		},
+		"poke_end_cleaver": {
+			"textures": "textures/items/end_cleaver"
+		},
+		"poke_ban_hammer": {
+			"textures": "textures/items/ban_hammer"
+		},
+		"poke_speed_boots_boots": {
+			"textures": [
+				"textures/items/speed_boots_boots"
+			]
+		},
+		"poke_test_boots": {
+			"textures": [
+				"textures/items/test_boots"
+			]
+		},
+		"poke_wither_spawner": {
+			"textures": "textures/items/wither_spawner"
+		},
+		"poke_amethyst_helmet": {
+			"textures": [
+				"textures/items/amethyst_helmet"
+			]
+		},
+		"poke_amethyst_chestplate": {
+			"textures": [
+				"textures/items/amethyst_chestplate"
+			]
+		},
+		"poke_amethyst_leggings": {
+			"textures": [
+				"textures/items/amethyst_leggings"
+			]
+		},
+		"poke_amethyst_boots": {
+			"textures": [
+				"textures/items/amethyst_boots"
+			]
+		},
+		"poke_demonic_slasher": {
+			"textures": "textures/items/demonic_slasher"
+		},
+		"poke_demonic_stick": {
+			"textures": "textures/items/demonic_stick"
+		},
+		"poke_pokite_helmet": {
+			"textures": [
+				"textures/items/pokite_helmet"
+			]
+		},
+		"poke_pokite_chestplate": {
+			"textures": [
+				"textures/items/pokite_chestplate"
+			]
+		},
+		"poke_pokite_leggings": {
+			"textures": [
+				"textures/items/pokite_leggings"
+			]
+		},
+		"poke_pokite_boots": {
+			"textures": [
+				"textures/items/pokite_boots"
+			]
+		},
+		"poke_haxel": {
+			"textures": "textures/items/haxel"
+		},
+		"poke_onyx_ingot": {
+			"textures": "textures/items/onyx_ingot"
+		},
+		"poke_onyx_shaft": {
+			"textures": "textures/items/onyx_shaft"
+		},
+		"poke_ban_hammer_head": {
+			"textures": "textures/items/ban_hammer_head"
+		},
+		"poke_ban_hammer_shaft": {
+			"textures": "textures/items/ban_hammer_shaft"
+		},
+		"poke_ban_hammer_grip": {
+			"textures": "textures/items/ban_hammer_grip"
+		},
+		"poke_banished_star": {
+			"textures": "textures/items/banished_star"
+		},
+		"poke_banished_star_x2": {
+			"textures": "textures/items/banished_star_x2"
+		},
+		"poke_banished_star_x3": {
+			"textures": "textures/items/banished_star_x3"
+		},
+		"poke_banished_star_x4": {
+			"textures": "textures/items/banished_star_x4"
+		},
+		"poke_banished_star_x5": {
+			"textures": "textures/items/banished_star_x5"
+		},
+		"poke_banished_star_x6": {
+			"textures": "textures/items/banished_star_x6"
+		}
+	}
+}

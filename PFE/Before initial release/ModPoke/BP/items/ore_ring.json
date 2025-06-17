@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "poke:ore_ring",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "poke_ore_ring"
+			}
+		},
+		"events": {
+			"poke:ore": {
+				"run_command": {
+					"command": "/loot give @p loot ore_ring"
+				},
+				"damage": {
+					"amount": 1,
+					"target": "self",
+					"type": "durability"
+				}
+			}
+		}
+	}
+}

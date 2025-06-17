@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "poke:ring_4",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "poke_ring_4"
+			},
+			"minecraft:cooldown": {
+				"category": "poke:ring_4",
+				"duration": 50
+			},
+			"minecraft:foil": true,
+			"minecraft:max_stack_size": 1,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "poke:ring_4"
+				}
+			}
+		},
+		"events": {
+			"poke:ring_4": {
+				"shoot": {
+					"projectile": "dragon_fireball",
+					"launch_power": 1
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke:ban_hammer_shaft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"***",
+			"NON",
+			"***"
+		],
+		"key": {
+			"N": {
+				"item": "poke:banished_star_x5"
+			},
+			"O": {
+				"item": "poke:banished_star_x6"
+			},
+			"*": {
+				"item": "poke:banished_star_x4"
+			}
+		},
+		"result": {
+			"item": "poke:ban_hammer_shaft",
+			"count": 1
+		}
+	}
+}

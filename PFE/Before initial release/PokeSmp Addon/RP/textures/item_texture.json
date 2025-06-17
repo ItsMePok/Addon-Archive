@@ -1,0 +1,36 @@
+{
+	"resource_pack_name": "PokeSmp Addon",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"poke_dollor_bill_1": {
+			"textures": "textures/items/dollor_bill_1"
+		},
+		"poke_dollor_bill_5": {
+			"textures": "textures/items/dollor_bill_5"
+		},
+		"poke_med_ring": {
+			"textures": "textures/items/med_ring"
+		},
+		"poke_ring_1": {
+			"textures": "textures/items/ring_1"
+		},
+		"poke_ring_2": {
+			"textures": "textures/items/ring_2"
+		},
+		"poke_ring_3": {
+			"textures": "textures/items/ring_3"
+		},
+		"poke_ring_4": {
+			"textures": "textures/items/ring_4"
+		},
+		"poke_arrow_ring": {
+			"textures": "textures/items/arrow_ring"
+		},
+		"poke_arrow_gem": {
+			"textures": "textures/items/arrow_gem"
+		},
+		"poke_gem_holder": {
+			"textures": "textures/items/gem_holder"
+		}
+	}
+}

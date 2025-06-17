@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "poke:kapow_gem",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "poke_kapow_gem"
+			}
+		}
+	}
+}

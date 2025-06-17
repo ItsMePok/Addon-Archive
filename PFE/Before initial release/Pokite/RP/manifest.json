@@ -1,0 +1,61 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"ItzPokebros"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.1.5",
+				"2.2.1",
+				"2.2.2",
+				"2.2.3",
+				"2.2.4",
+				"2.2.5"
+			],
+			"dash": [
+				"0.5.0",
+				"0.5.1",
+				"0.7.0",
+				"0.7.1",
+				"0.8.3"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			18,
+			2
+		],
+		"uuid": "ee9d75d0-766f-4769-b301-a4646a2b9074",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "4fdb8d0e-cd3c-4623-a76e-4e59d6628ca6",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "5c178d7f-4cf9-4280-a436-9ab008b9b382",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

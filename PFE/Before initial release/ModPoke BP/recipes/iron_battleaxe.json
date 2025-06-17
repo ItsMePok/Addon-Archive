@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke:iron_battleaxe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"DDD",
+			"DSD",
+			" B "
+		],
+		"key": {
+			"B": {
+				"item": "iron_block"
+			},
+			"D": {
+				"item": "iron_ingot"
+			},
+			"S": {
+				"item": "stick"
+			}
+		},
+		"result": {
+			"item": "poke:iron_battleaxe"
+		}
+	}
+}

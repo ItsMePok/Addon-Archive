@@ -1,0 +1,16 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "empty"
+				},
+				{
+					"type": "item",
+					"name": "poke:raw_shade"
+				}
+			]
+		}
+	]
+}

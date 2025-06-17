@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"tags": [
+			"crafting_table"
+		],
+		"description": {
+			"identifier": "poke:netherite_battleaxe"
+		},
+		"ingredients": [
+			{
+				"item": "poke:diamond_battleaxe",
+				"count": 1
+			},
+			{
+				"item": "netherite_ingot",
+				"count": 1
+			}
+		],
+		"result": {
+			"item": "poke:netherite_battleaxe"
+		}
+	}
+}

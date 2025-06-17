@@ -1,0 +1,78 @@
+{
+	"format_version": "1.18.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "poke:haxel"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "equipment"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 500
+			},
+			"minecraft:icon": {
+				"texture": "poke_haxel"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"poke:haxel"
+						],
+						"repair_amount": 500
+					},
+					{
+						"items": [
+							"poke:onyx_ingot"
+						],
+						"repair_amount": 200
+					}
+				]
+			},
+			"minecraft:hover_text_color": "minecoin_gold",
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 18,
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "query.any_tag('deepslate', 'dirt', 'sand', 'gravel', 'grass', 'snow', 'wood', 'pumpkin', 'plant', 'stone', 'metal', 'diamond_pick_diggable')"
+						},
+						"speed": 50
+					},
+					{
+						"block": "minecraft:ice",
+						"speed": 50
+					},
+					{
+						"block": "minecraft:sandstone",
+						"speed": 50
+					}
+				]
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "poke:3x4"
+				}
+			},
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 50
+			},
+			"minecraft:weapon": {}
+		},
+		"events": {
+			"poke:3x4": {
+				"run_command": {
+					"command": [
+						"/fill ~1 ~3 ~1 ~-1 ~ ~-1 air 0 destroy"
+					]
+				}
+			}
+		}
+	}
+}

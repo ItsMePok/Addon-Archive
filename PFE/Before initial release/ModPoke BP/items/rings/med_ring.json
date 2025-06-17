@@ -1,0 +1,40 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "poke:med_ring",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "poke_med_ring"
+			},
+			"minecraft:allow_off_hand": true,
+			"minecraft:foil": true,
+			"minecraft:cooldown": {
+				"category": "poke:med_ring",
+				"duration": 1
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "med"
+				}
+			}
+		},
+		"events": {
+			"med": {
+				"add_mob_effect": {
+					"duration": 9999,
+					"amplifier": 4,
+					"effect": "health_boost"
+				},
+				"run_command": {
+					"command": [
+						"execute @a[r=5] ~~~ effect @s regeneration 1 50"
+					]
+				}
+			}
+		}
+	}
+}

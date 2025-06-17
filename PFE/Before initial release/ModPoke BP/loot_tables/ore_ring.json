@@ -1,0 +1,44 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "coal",
+					"weight": 30
+				},
+				{
+					"type": "item",
+					"name": "lapis_lazuli",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "iron_ingot",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "redstone",
+					"weight": 30
+				},
+				{
+					"type": "item",
+					"name": "gold_ingot",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "emerald",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"name": "diamond",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "poke:onyx"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:map_color": "#ffffff",
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "poke_onyx",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:creative_category": {
+				"category": "construction"
+			}
+		}
+	}
+}

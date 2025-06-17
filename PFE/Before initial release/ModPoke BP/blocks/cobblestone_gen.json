@@ -1,0 +1,31 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "poke:cobblestone_gen"
+		},
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "poke_cobblestone_gen",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "poke:generate_cobblestone"
+				}
+			}
+		},
+		"events": {
+			"poke:generate_cobblestone": {
+				"run_command": {
+					"command": [
+						"function cobblegen"
+					]
+				}
+			}
+		}
+	}
+}

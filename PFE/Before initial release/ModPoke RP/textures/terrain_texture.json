@@ -1,0 +1,35 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Poke",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"poke_shade_ore": {
+			"textures": "textures/blocks/shade_ore"
+		},
+		"poke_hellite_ore": {
+			"textures": "textures/blocks/hellite_ore"
+		},
+		"poke_hellite_block": {
+			"textures": "textures/blocks/hellite_block"
+		},
+		"poke_cobble_trapdoor": {
+			"textures": "textures/blocks/cobble_trapdoor"
+		},
+		"poke_dirt_slab_top": {
+			"textures": "textures/blocks/dirt_slab_top"
+		},
+		"poke_dirt_slab_side": {
+			"textures": "textures/blocks/dirt_slab_side"
+		},
+		"poke_onyx": {
+			"textures": "textures/blocks/onyx"
+		},
+		"poke_onyx_block": {
+			"textures": "textures/blocks/onyx_block"
+		},
+		"poke_cobblestone_gen": {
+			"textures": "textures/blocks/cobblestone_gen"
+		}
+	}
+}

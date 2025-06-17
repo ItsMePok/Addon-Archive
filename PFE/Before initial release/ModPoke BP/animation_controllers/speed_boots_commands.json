@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.speed_boots.commands": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"move": "query.is_moving"
+						}
+					]
+				},
+				"move": {
+					"transitions": [
+						{
+							"default": "query.modified_move_speed"
+						}
+					],
+					"on_entry": [
+						"/effect @a speed 3 5 true"
+					]
+				}
+			}
+		}
+	}
+}

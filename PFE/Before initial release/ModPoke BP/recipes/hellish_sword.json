@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke:hellish_blade"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" # ",
+			"###",
+			" i "
+		],
+		"key": {
+			"i": {
+				"item": "minecraft:stick"
+			},
+			"#": {
+				"item": "poke:hellite_ingot"
+			}
+		},
+		"result": {
+			"item": "poke:hellish_blade"
+		}
+	}
+}

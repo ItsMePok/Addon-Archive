@@ -1,0 +1,40 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Pokite",
+	"namespace": "poke",
+	"authors": [
+		"ItzPokebros"
+	],
+	"targetVersion": "1.18.0",
+	"description": "POKITE",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": true,
+		"additionalModdingCapabilities": false,
+		"upcomingCreatorFeatures": true,
+		"enableGameTestFramework": true,
+		"experimentalMolangFeatures": true,
+		"educationEdition": true
+	},
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"compiler": {
+		"plugins": [
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			[
+				"simpleRewrite",
+				{
+					"packName": "Pokite"
+				}
+			]
+		]
+	}
+}

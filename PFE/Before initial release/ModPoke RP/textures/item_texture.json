@@ -1,0 +1,218 @@
+{
+	"resource_pack_name": "Poke",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"poke_diamond_battleaxe": {
+			"textures": "textures/items/diamond_battleaxe"
+		},
+		"poke_iron_battleaxe": {
+			"textures": "textures/items/iron_battleaxe"
+		},
+		"poke_emerald_battleaxe": {
+			"textures": "textures/items/emerald_battleaxe"
+		},
+		"poke_ember_robe_chestplate": {
+			"textures": "textures/items/ember_robe_chestplate"
+		},
+		"poke_ember_hat": {
+			"textures": "textures/items/ember_hat"
+		},
+		"poke_zeus_ring": {
+			"textures": "textures/items/poke_zeus_ring"
+		},
+		"poke_dollor_bill_1": {
+			"textures": "textures/items/dollor_bill_1"
+		},
+		"poke_ring_4": {
+			"textures": "textures/items/poke_ring_4"
+		},
+		"poke_ring_1": {
+			"textures": "textures/items/poke_ring_1"
+		},
+		"poke_ring_2": {
+			"textures": "textures/items/poke_ring_2"
+		},
+		"poke_shade_ring": {
+			"textures": "textures/items/poke_shade_ring"
+		},
+		"poke_ring_3": {
+			"textures": "textures/items/poke_ring_3"
+		},
+		"poke_kapow_ring": {
+			"textures": "textures/items/poke_kapow_ring"
+		},
+		"poke_arrow_ring": {
+			"textures": "textures/items/poke_arrow_ring"
+		},
+		"poke_dollor_bill_5": {
+			"textures": "textures/items/dollor_bill_5"
+		},
+		"poke_zeus_gem": {
+			"textures": "textures/items/poke_zeus_gem"
+		},
+		"poke_shade_gem": {
+			"textures": "textures/items/poke_shade_gem"
+		},
+		"poke_kapow_gem": {
+			"textures": "textures/items/poke_kapow_gem"
+		},
+		"poke_blaze_gem": {
+			"textures": "textures/items/poke_blaze_gem"
+		},
+		"poke_arrow_gem": {
+			"textures": "textures/items/poke_arrow_gem"
+		},
+		"poke_dragon_gem": {
+			"textures": "textures/items/poke_dragon_gem"
+		},
+		"poke_rain_gem": {
+			"textures": "textures/items/poke_rain_gem"
+		},
+		"poke_shade_ingot": {
+			"textures": "textures/items/poke_shade_ingot"
+		},
+		"poke_dollor_bill_10": {
+			"textures": "textures/items/dollor_bill_10"
+		},
+		"poke_med_ring": {
+			"textures": "textures/items/poke_med_ring"
+		},
+		"poke_gem_holder": {
+			"textures": "textures/items/poke_ring_holder"
+		},
+		"poke_raw_shade": {
+			"textures": "textures/items/raw_shade"
+		},
+		"poke_odsidian_gem_holder": {
+			"textures": "textures/items/poke_obsidian_gem_holder"
+		},
+		"poke_diamond_gem_holder": {
+			"textures": "textures/items/poke_diamond_gem_holder"
+		},
+		"poke_springy_gem": {
+			"textures": "textures/items/poke_springy_gem"
+		},
+		"poke_springy_ring": {
+			"textures": "textures/items/poke_springy_ring"
+		},
+		"poke_strength_gem": {
+			"textures": "textures/items/poke_strength_gem"
+		},
+		"poke_strength_ring": {
+			"textures": "textures/items/poke_strength_ring"
+		},
+		"poke_test": {
+			"textures": "textures/items/test"
+		},
+		"poke_ore_ring": {
+			"textures": "textures/items/ore_ring"
+		},
+		"hellite_ingot": {
+			"textures": "textures/items/pokite_ingot"
+		},
+		"poke_hellite_sword": {
+			"textures": "textures/items/pokite_sword"
+		},
+		"poke_end_cleaver": {
+			"textures": "textures/items/end_cleaver"
+		},
+		"poke_ban_hammer": {
+			"textures": "textures/items/ban_hammer"
+		},
+		"poke_speed_boots_boots": {
+			"textures": [
+				"textures/items/speed_boots_boots"
+			]
+		},
+		"poke_test_boots": {
+			"textures": [
+				"textures/items/test_boots"
+			]
+		},
+		"poke_wither_spawner": {
+			"textures": "textures/items/wither_spawner"
+		},
+		"poke_amethyst_helmet": {
+			"textures": [
+				"textures/items/amethyst_helmet"
+			]
+		},
+		"poke_amethyst_chestplate": {
+			"textures": [
+				"textures/items/amethyst_chestplate"
+			]
+		},
+		"poke_amethyst_leggings": {
+			"textures": [
+				"textures/items/amethyst_leggings"
+			]
+		},
+		"poke_amethyst_boots": {
+			"textures": [
+				"textures/items/amethyst_boots"
+			]
+		},
+		"poke_demonic_slasher": {
+			"textures": "textures/items/demonic_slasher"
+		},
+		"poke_demonic_stick": {
+			"textures": "textures/items/demonic_stick"
+		},
+		"poke_pokite_helmet": {
+			"textures": [
+				"textures/items/pokite_helmet"
+			]
+		},
+		"poke_pokite_chestplate": {
+			"textures": [
+				"textures/items/pokite_chestplate"
+			]
+		},
+		"poke_pokite_leggings": {
+			"textures": [
+				"textures/items/pokite_leggings"
+			]
+		},
+		"poke_pokite_boots": {
+			"textures": [
+				"textures/items/pokite_boots"
+			]
+		},
+		"poke_haxel": {
+			"textures": "textures/items/haxel"
+		},
+		"poke_onyx_ingot": {
+			"textures": "textures/items/onyx_ingot"
+		},
+		"poke_onyx_shaft": {
+			"textures": "textures/items/onyx_shaft"
+		},
+		"poke_ban_hammer_head": {
+			"textures": "textures/items/ban_hammer_head"
+		},
+		"poke_ban_hammer_shaft": {
+			"textures": "textures/items/ban_hammer_shaft"
+		},
+		"poke_ban_hammer_grip": {
+			"textures": "textures/items/ban_hammer_grip"
+		},
+		"poke_banished_star": {
+			"textures": "textures/items/banished_star"
+		},
+		"poke_banished_star_x2": {
+			"textures": "textures/items/banished_star_x2"
+		},
+		"poke_banished_star_x3": {
+			"textures": "textures/items/banished_star_x3"
+		},
+		"poke_banished_star_x4": {
+			"textures": "textures/items/banished_star_x4"
+		},
+		"poke_banished_star_x5": {
+			"textures": "textures/items/banished_star_x5"
+		},
+		"poke_banished_star_x6": {
+			"textures": "textures/items/banished_star_x6"
+		}
+	}
+}

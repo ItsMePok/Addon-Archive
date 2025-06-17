@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke:demonic_slasher"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ZZX",
+			" # ",
+			"Y  "
+		],
+		"key": {
+			"Y": {
+				"item": "poke:hellish_blade"
+			},
+			"X": {
+				"item": "netherite_block"
+			},
+			"Z": {
+				"item": "netherite_ingot"
+			},
+			"#": {
+				"item": "poke:demonic_stick"
+			}
+		},
+		"result": {
+			"item": "poke:demonic_slasher"
+		}
+	}
+}

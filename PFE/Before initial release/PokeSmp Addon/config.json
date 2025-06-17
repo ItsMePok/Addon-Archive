@@ -1,0 +1,41 @@
+{
+	"type": "minecraftBedrock",
+	"name": "PokeSmp Addon",
+	"namespace": "poke",
+	"authors": [
+		"ItsMePoke"
+	],
+	"targetVersion": "1.18.10",
+	"description": "A addon for the Smp",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": true,
+		"additionalModdingCapabilities": false,
+		"upcomingCreatorFeatures": true,
+		"enableGameTestFramework": true,
+		"experimentalMolangFeatures": true,
+		"theWildUpdate": false,
+		"educationEdition": false
+	},
+	"packs": {
+		"resourcePack": "./RP",
+		"behaviorPack": "./BP"
+	},
+	"compiler": {
+		"plugins": [
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			[
+				"simpleRewrite",
+				{
+					"packName": "PokeSmp Addon"
+				}
+			]
+		]
+	}
+}

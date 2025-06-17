@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke:pokite_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"N N",
+			"BSB",
+			"BBB"
+		],
+		"key": {
+			"N": {
+				"item": "netherite_block"
+			},
+			"B": {
+				"item": "poke:onyx_block"
+			},
+			"S": {
+				"item": "nether_star"
+			}
+		},
+		"result": {
+			"item": "poke:pokite_chestplate"
+		}
+	}
+}

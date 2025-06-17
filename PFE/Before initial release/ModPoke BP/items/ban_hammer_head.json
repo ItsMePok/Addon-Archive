@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "poke:ban_hammer_head",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "poke_ban_hammer_head"
+			}
+		}
+	}
+}

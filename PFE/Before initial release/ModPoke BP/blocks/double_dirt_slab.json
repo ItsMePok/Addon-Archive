@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "poke:double_dirt_slab"
+		},
+		"components": {
+			"minecraft:destroy_time": 3,
+			"minecraft:explosion_resistance": 6,
+			"minecraft:loot": "loot_tables/blocks/double_dirt_slab.json",
+			"minecraft:map_color": "#707070",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "poke_dirt_slab_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "poke_dirt_slab_top",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "poke_dirt_slab_top",
+					"render_method": "opaque"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "poke:hellish_blade"
+		},
+		"components": {
+			"minecraft:damage": 15,
+			"minecraft:durability": {
+				"max_durability": 250
+			},
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 60
+			},
+			"minecraft:icon": {
+				"texture": "hellite_ingot"
+			}
+		},
+		"events": {
+			"1": {
+				"add_mob_effect": {
+					"effect": "slowness",
+					"amplifier": 3,
+					"duration": 2,
+					"target": "other"
+				}
+			}
+		}
+	}
+}

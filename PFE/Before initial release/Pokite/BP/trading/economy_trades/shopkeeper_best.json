@@ -1,0 +1,143 @@
+{
+	"tiers": [
+		{
+			"groups": [
+				{
+					"num_to_select": 9,
+					"trades": [
+						{
+							"max_uses": 999,
+							"wants": [
+								{
+									"item": "poke:hellite_ingot",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "emerald_block"
+								}
+							]
+						},
+						{
+							"max_uses": 2,
+							"wants": [
+								{
+									"item": "diamond_block",
+									"quantity": 10
+								}
+							],
+							"gives": [
+								{
+									"item": "poke:wither_spawner"
+								}
+							]
+						},
+						{
+							"max_uses": 999,
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 2
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:firework_rocket",
+									"quantity": 8
+								}
+							]
+						},
+						{
+							"max_uses": 999,
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 10
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:heart_of_the_sea"
+								}
+							]
+						},
+						{
+							"max_uses": 999,
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 10
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:diamond"
+								}
+							]
+						},
+						{
+							"max_uses": 999,
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:copper_block",
+									"quantity": 2
+								}
+							]
+						},
+						{
+							"max_uses": 999,
+							"wants": [
+								{
+									"item": "minecraft:pumpkin",
+									"quantity": 2
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald"
+								}
+							]
+						},
+						{
+							"max_uses": 999,
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:golden_carrot",
+									"quantity": 2
+								}
+							]
+						},
+						{
+							"max_uses": 999,
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:gunpowder",
+									"quantity": 2
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

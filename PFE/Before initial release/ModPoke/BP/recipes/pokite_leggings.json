@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke:pokite_leggings"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#N#",
+			"B B",
+			"L L"
+		],
+		"key": {
+			"#": {
+				"item": "poke:onyx_ingot"
+			},
+			"B": {
+				"item": "poke:onyx_block"
+			},
+			"N": {
+				"item": "nether_star"
+			},
+			"L": {
+				"item": "netherite_block"
+			}
+		},
+		"result": {
+			"item": "poke:pokite_leggings"
+		}
+	}
+}

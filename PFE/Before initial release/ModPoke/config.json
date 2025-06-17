@@ -1,0 +1,44 @@
+{
+	"type": "minecraftBedrock",
+	"name": "ModPoke",
+	"namespace": "poke",
+	"authors": [
+		"ItsMePoke"
+	],
+	"targetVersion": "1.19.0",
+	"description": "ah yes",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": true,
+		"upcomingCreatorFeatures": true,
+		"enableGameTestFramework": true,
+		"experimentalMolangFeatures": true,
+		"theWildUpdate": true,
+		"educationEdition": false
+	},
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "ModPoke"
+				}
+			]
+		]
+	}
+}

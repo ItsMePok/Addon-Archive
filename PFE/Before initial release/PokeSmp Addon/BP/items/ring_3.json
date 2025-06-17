@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "poke:ring_3",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "poke_ring_3"
+			},
+			"minecraft:cooldown": {
+				"duration": 10,
+				"category": "use"
+			},
+			"minecraft:foil": true,
+			"minecraft:max_stack_size": 1,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "poke:ring_3"
+				}
+			}
+		},
+		"events": {
+			"poke:ring_3": {
+				"shoot": {
+					"projectile": "ender_pearl",
+					"launch_power": 1
+				}
+			}
+		}
+	}
+}

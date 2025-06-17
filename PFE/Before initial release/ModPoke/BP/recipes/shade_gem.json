@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke:shade_gem"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"D": {
+				"item": "diamond"
+			},
+			"X": {
+				"item": "poke:shade_ingot"
+			}
+		},
+		"pattern": [
+			"XXX",
+			"XDX",
+			"XXX"
+		],
+		"result": {
+			"item": "poke:shade_gem"
+		}
+	}
+}

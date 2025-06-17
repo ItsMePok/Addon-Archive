@@ -1,0 +1,34 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "poke:strength_ring",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "poke_strength_ring"
+			},
+			"minecraft:foil": true,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "poke:strength_ring"
+				}
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:cooldown": {
+				"category": "poke:strength_ring",
+				"duration": 30
+			}
+		},
+		"events": {
+			"poke:strength_ring": {
+				"add_mob_effect": {
+					"amplifier": 2,
+					"duration": 20,
+					"effect": "strength"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke:hellite_block_un-craft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "poke:hellite_block"
+			}
+		},
+		"result": {
+			"item": "poke:hellite_ingot",
+			"count": 9
+		}
+	}
+}

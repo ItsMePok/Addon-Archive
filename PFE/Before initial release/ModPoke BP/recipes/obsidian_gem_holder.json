@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke:obsidian_gem_holder"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" X ",
+			"X X",
+			" X "
+		],
+		"key": {
+			"X": {
+				"item": "obsidian"
+			}
+		},
+		"result": {
+			"item": "poke:obsidian_gem_holder"
+		}
+	}
+}

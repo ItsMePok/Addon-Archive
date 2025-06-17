@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"ItsMePoke"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.2.13"
+			],
+			"dash": [
+				"0.8.18"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			19,
+			0
+		],
+		"uuid": "c541a39f-8b95-46bc-9c0a-df2a21f7ede6",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "791a31d8-1b4a-48a5-aae0-d3be1d5915d2",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

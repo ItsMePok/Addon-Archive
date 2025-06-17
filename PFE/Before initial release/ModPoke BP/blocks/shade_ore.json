@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "poke:shade_ore"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:map_color": "#ffffff",
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "poke_shade_ore",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:loot": "loot_tables/shade_ore.json"
+		}
+	}
+}

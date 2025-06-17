@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "poke:speed_boots_boots",
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/models/armor/speed_boots",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.speed_boots"
+			},
+			"scripts": {
+				"parent_setup": "variable.boot_layer_visible = 0.0;",
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+				],
+				"animate": [
+					"move_controller",
+					"speed_boots_commands"
+				]
+			},
+			"animations": {
+				"move": "animation.speed_boots.walk",
+				"move_controller": "controller.animation.speed_boots",
+				"speed_boots_commands": "controller.animation.speed_boots.commands"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			]
+		}
+	}
+}

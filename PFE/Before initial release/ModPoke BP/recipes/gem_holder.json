@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke:gem_holder"
+		},
+		"pattern": [
+			" G ",
+			"G G",
+			" G "
+		],
+		"key": {
+			"G": {
+				"item": "gold_block"
+			}
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"result": {
+			"item": "poke:gem_holder",
+			"count": 1
+		}
+	}
+}

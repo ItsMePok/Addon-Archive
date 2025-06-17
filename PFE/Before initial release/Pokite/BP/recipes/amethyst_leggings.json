@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "poke:amethyst_leggings"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "netherite_leggings",
+				"count": 1
+			},
+			{
+				"item": "amethyst_block",
+				"count": 7
+			}
+		],
+		"result": {
+			"item": "poke:amethyst_leggings",
+			"count": 1
+		}
+	}
+}
